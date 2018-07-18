@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import React from 'react';
+import React, { Fragment } from 'react';
 import styled from 'styled-components';
 
 const Header = styled.header`
@@ -16,7 +16,7 @@ const SiteTitle = styled.h1`
 `;
 
 const Layout = ({ children }) => (
-  <div>
+  <Fragment>
     <Header role="banner">
       <SiteTitle>Energy Usage and Meter Readings</SiteTitle>
     </Header>
@@ -24,7 +24,7 @@ const Layout = ({ children }) => (
     <main id="main">
       {children}
     </main>
-  </div>
+  </Fragment>
 );
 
 Layout.propTypes = {

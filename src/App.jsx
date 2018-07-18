@@ -9,18 +9,16 @@ import globalStyles from './globalStyles';
 /* eslint-disable-next-line no-unused-expressions */
 injectGlobal`${globalStyles}`;
 
-const handleResponse = data => data.electricity;
-
 export default () => (
   <Layout>
-    <Holen transformResponse={handleResponse} url="https://storage.googleapis.com/bulb-interview/meterReadingsReal.json">
+    <Holen url="https://storage.googleapis.com/bulb-interview/meterReadingsReal.json">
       {({ data, fetching }) => (
         fetching
           ? <p>Loading meter readings...</p>
           : (
             <Fragment>
-              <EnergyUsage meterReadings={data} />
-              <MeterReadings meterReadings={data} />
+              <EnergyUsage meterReadings={data.electricity} />
+              <MeterReadings meterReadings={data.electricity} />
             </Fragment>
           )
         )
