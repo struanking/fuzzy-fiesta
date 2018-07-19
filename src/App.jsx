@@ -1,28 +1,24 @@
-import Holen from 'holen';
-import React, { Fragment } from 'react';
+import React from 'react';
 import { injectGlobal } from 'styled-components';
-import EnergyUsage from './components/EnergyUsage';
 import Layout from './components/Layout';
-import MeterReadings from './components/MeterReadings';
-import globalStyles from './globalStyles';
+import Section, { Heading } from './components/Section';
+import EnergyUsage from './EnergyUsage';
+import { styles } from './globals';
+import MeterReadings from './MeterReadings';
 
 /* eslint-disable-next-line no-unused-expressions */
-injectGlobal`${globalStyles}`;
+injectGlobal`${styles}`;
 
 export default () => (
   <Layout>
-    <Holen url="https://storage.googleapis.com/bulb-interview/meterReadingsReal.json">
-      {({ data, fetching }) => (
-        fetching
-          ? <p>Loading meter readings...</p>
-          : (
-            <Fragment>
-              <EnergyUsage meterReadings={data.electricity} />
-              <MeterReadings meterReadings={data.electricity} />
-            </Fragment>
-          )
-        )
-      }
-    </Holen>
+    <Section>
+      <Heading>Energy Usage</Heading>
+      <EnergyUsage />
+    </Section>
+
+    <Section>
+      <Heading>Meter Readings</Heading>
+      <MeterReadings />
+    </Section>
   </Layout>
 );

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Layout correctly 1`] = `
+Array [
+  <header
+    className="sc-bdVaJa fVtXgW"
+    role="banner"
+  >
+    <h1
+      className="sc-bwzfXH gusAcy"
+    >
+      Energy Usage and Meter Readings
+    </h1>
+  </header>,
+  <main
+    id="main"
+  >
+    <p>
+      content
+    </p>
+  </main>,
+  <footer
+    className="sc-htpNat cdOTFi"
+    role="contentinfo"
+  >
+    <p>
+      Struan King | Bulb Energy | 2018
+    </p>
+  </footer>,
+]
+`;

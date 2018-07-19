@@ -1,0 +1,502 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Layout correctly 1`] = `
+<div
+  className="recharts-wrapper"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onMouseMove={[Function]}
+  onTouchMove={[Function]}
+  style={
+    Object {
+      "cursor": "default",
+      "height": 400,
+      "position": "relative",
+      "width": 1400,
+    }
+  }
+>
+  <svg
+    className="recharts-surface"
+    height={400}
+    style={undefined}
+    version="1.1"
+    viewBox="0 0 1400 400"
+    width={1400}
+  >
+    <g
+      className="recharts-layer recharts-cartesian-axis recharts-xAxis xAxis"
+    >
+      <line
+        className="recharts-cartesian-axis-line"
+        fill="none"
+        height={30}
+        stroke="#666"
+        width={1330}
+        x={65}
+        x1={65}
+        x2={1395}
+        y={365}
+        y1={365}
+        y2={365}
+      />
+      <g
+        className="recharts-cartesian-axis-ticks"
+      >
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={30}
+            stroke="#666"
+            width={1330}
+            x={65}
+            x1={286.66666666666663}
+            x2={286.66666666666663}
+            y={365}
+            y1={371}
+            y2={365}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={30}
+            stroke="none"
+            textAnchor="middle"
+            width={1330}
+            x={286.66666666666663}
+            y={373}
+          >
+            <tspan
+              dy="0.71em"
+              x={286.66666666666663}
+            >
+              2017-04-30
+            </tspan>
+          </text>
+        </g>
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={30}
+            stroke="#666"
+            width={1330}
+            x={65}
+            x1={730}
+            x2={730}
+            y={365}
+            y1={371}
+            y2={365}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={30}
+            stroke="none"
+            textAnchor="middle"
+            width={1330}
+            x={730}
+            y={373}
+          >
+            <tspan
+              dy="0.71em"
+              x={730}
+            >
+              2017-05-31
+            </tspan>
+          </text>
+        </g>
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={30}
+            stroke="#666"
+            width={1330}
+            x={65}
+            x1={1173.3333333333333}
+            x2={1173.3333333333333}
+            y={365}
+            y1={371}
+            y2={365}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={30}
+            stroke="none"
+            textAnchor="middle"
+            width={1330}
+            x={1173.3333333333333}
+            y={373}
+          >
+            <tspan
+              dy="0.71em"
+              x={1173.3333333333333}
+            >
+              2017-06-30
+            </tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+    <g
+      className="recharts-layer recharts-cartesian-axis recharts-yAxis yAxis"
+    >
+      <line
+        className="recharts-cartesian-axis-line"
+        fill="none"
+        height={360}
+        stroke="#666"
+        width={60}
+        x={5}
+        x1={65}
+        x2={65}
+        y={5}
+        y1={5}
+        y2={365}
+      />
+      <g
+        className="recharts-cartesian-axis-ticks"
+      >
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={360}
+            stroke="#666"
+            width={60}
+            x={5}
+            x1={59}
+            x2={65}
+            y={5}
+            y1={365}
+            y2={365}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={360}
+            stroke="none"
+            textAnchor="end"
+            width={60}
+            x={57}
+            y={365}
+          >
+            <tspan
+              dy="0.355em"
+              x={57}
+            >
+              0
+            </tspan>
+          </text>
+        </g>
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={360}
+            stroke="#666"
+            width={60}
+            x={5}
+            x1={59}
+            x2={65}
+            y={5}
+            y1={275}
+            y2={275}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={360}
+            stroke="none"
+            textAnchor="end"
+            width={60}
+            x={57}
+            y={275}
+          >
+            <tspan
+              dy="0.355em"
+              x={57}
+            >
+              65
+            </tspan>
+          </text>
+        </g>
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={360}
+            stroke="#666"
+            width={60}
+            x={5}
+            x1={59}
+            x2={65}
+            y={5}
+            y1={185}
+            y2={185}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={360}
+            stroke="none"
+            textAnchor="end"
+            width={60}
+            x={57}
+            y={185}
+          >
+            <tspan
+              dy="0.355em"
+              x={57}
+            >
+              130
+            </tspan>
+          </text>
+        </g>
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={360}
+            stroke="#666"
+            width={60}
+            x={5}
+            x1={59}
+            x2={65}
+            y={5}
+            y1={95}
+            y2={95}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={360}
+            stroke="none"
+            textAnchor="end"
+            width={60}
+            x={57}
+            y={95}
+          >
+            <tspan
+              dy="0.355em"
+              x={57}
+            >
+              195
+            </tspan>
+          </text>
+        </g>
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={360}
+            stroke="#666"
+            width={60}
+            x={5}
+            x1={59}
+            x2={65}
+            y={5}
+            y1={5}
+            y2={5}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={360}
+            stroke="none"
+            textAnchor="end"
+            width={60}
+            x={57}
+            y={5}
+          >
+            <tspan
+              dy="0.355em"
+              x={57}
+            >
+              260
+            </tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+    <g
+      className="recharts-cartesian-grid"
+    >
+      <g
+        className="recharts-cartesian-grid-vertical"
+      >
+        <line
+          fill="none"
+          height={360}
+          stroke="#ccc"
+          width={1330}
+          x={65}
+          x1={286.66666666666663}
+          x2={286.66666666666663}
+          y={5}
+          y1={5}
+          y2={365}
+        />
+        <line
+          fill="none"
+          height={360}
+          stroke="#ccc"
+          width={1330}
+          x={65}
+          x1={730}
+          x2={730}
+          y={5}
+          y1={5}
+          y2={365}
+        />
+        <line
+          fill="none"
+          height={360}
+          stroke="#ccc"
+          width={1330}
+          x={65}
+          x1={1173.3333333333333}
+          x2={1173.3333333333333}
+          y={5}
+          y1={5}
+          y2={365}
+        />
+        <line
+          fill="none"
+          height={360}
+          stroke="#ccc"
+          width={1330}
+          x={65}
+          x1={65}
+          x2={65}
+          y={5}
+          y1={5}
+          y2={365}
+        />
+        <line
+          fill="none"
+          height={360}
+          stroke="#ccc"
+          width={1330}
+          x={65}
+          x1={1395}
+          x2={1395}
+          y={5}
+          y1={5}
+          y2={365}
+        />
+      </g>
+    </g>
+    <g
+      className="recharts-layer recharts-bar"
+    >
+      <g
+        className="recharts-layer recharts-bar-rectangles"
+        clipPath={null}
+      >
+        <g
+          className="recharts-layer recharts-bar-rectangle"
+        >
+          <path
+            className="recharts-rectangle"
+            d="M 109.33333333333333,6.384615384615358 h 354 v 358.61538461538464 h -354 Z"
+            fill="#03ad54"
+            height={358.61538461538464}
+            radius={0}
+            width={354}
+            x={109.33333333333333}
+            y={6.384615384615358}
+          />
+        </g>
+        <g
+          className="recharts-layer recharts-bar-rectangle"
+        >
+          <path
+            className="recharts-rectangle"
+            d="M 552.6666666666666,28.538461538461547 h 354 v 336.46153846153845 h -354 Z"
+            fill="#03ad54"
+            height={336.46153846153845}
+            radius={0}
+            width={354}
+            x={552.6666666666666}
+            y={28.538461538461547}
+          />
+        </g>
+        <g
+          className="recharts-layer recharts-bar-rectangle"
+        >
+          <path
+            className="recharts-rectangle"
+            d="M 996,104.69230769230768 h 354 v 260.3076923076923 h -354 Z"
+            fill="#03ad54"
+            height={260.3076923076923}
+            radius={0}
+            width={354}
+            x={996}
+            y={104.69230769230768}
+          />
+        </g>
+      </g>
+    </g>
+  </svg>
+  <div
+    className="recharts-tooltip-wrapper"
+    style={
+      Object {
+        "MozTransform": "translate(undefinedpx, undefinedpx)",
+        "OTransform": "translate(undefinedpx, undefinedpx)",
+        "WebkitTransform": "translate(undefinedpx, undefinedpx)",
+        "msTransform": "translate(undefinedpx, undefinedpx)",
+        "pointerEvents": "none",
+        "position": "absolute",
+        "top": 0,
+        "transform": "translate(undefinedpx, undefinedpx)",
+        "visibility": "hidden",
+      }
+    }
+  >
+    <div
+      className="recharts-default-tooltip"
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "border": "1px solid #ccc",
+          "margin": 0,
+          "padding": 10,
+          "whiteSpace": "nowrap",
+        }
+      }
+    >
+      <p
+        className="recharts-tooltip-label"
+        style={
+          Object {
+            "margin": 0,
+          }
+        }
+      >
+        
+      </p>
+    </div>
+  </div>
+</div>
+`;

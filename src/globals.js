@@ -1,4 +1,6 @@
-export default `
+export const remoteDataUrl = 'https://storage.googleapis.com/bulb-interview/meterReadingsReal.json';
+
+export const styles = `
   html {
     background-color: #fffcef;
     color: #2b2b2b;
