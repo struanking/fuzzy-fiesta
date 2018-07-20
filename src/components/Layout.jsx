@@ -17,7 +17,7 @@ const SiteTitle = styled.h1`
 
 const Footer = styled.footer`
   border-top: solid 1px #ddd;
-  color: #aaa;
+  color: #555;
   font-size: 80%;
   margin-top: 2rem;
   text-align: center;

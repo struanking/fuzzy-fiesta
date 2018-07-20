@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Table = styled.table`
-  border: 1px solid #548e87;
+  border: 1px solid #477872;
   border-collapse: collapse;
   margin: auto;
   max-width: 540px;
@@ -9,8 +9,8 @@ const Table = styled.table`
 `;
 
 export const Head = styled.thead`
-  background-color: #548e87;
-  color: #efefef;
+  background-color: #477872;
+  color: #fff;
 `;
 
 export const Body = styled.tbody`
